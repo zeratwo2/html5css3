@@ -275,6 +275,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 48px;
 }
 
 .buy_it_now_header {
@@ -287,8 +288,8 @@
 
 .plans {
     display: flex;
-    align-items: flex-end;
     justify-content: space-around;
+    align-items: flex-end;
     width: 100%;
 }
 
@@ -298,6 +299,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 1em;
 }
 
 .plan_name {
@@ -339,4 +341,99 @@
     background-color: white;
     border-radius: 5px;
     margin-bottom: 16px;
+}
+
+.contacts {
+    background-color: #445162;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts_header {
+    font-family: ArialMT, MyriadPro-Regular, AdobeInvisFont;
+    font-size: 30pt;
+    color: rgba(255, 255, 255, 255);
+}
+
+.contacts_container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-right: 2em;
+}
+
+.contact_form > input {
+    font-family: ArialMT, MyriadPro-Regular, AdobeInvisFont;
+    font-size: 16pt;
+    color: rgba(68, 81, 98, 255);
+    border-radius: 5px;
+    margin-bottom: 21px;
+    height: 40px;
+    width: 100%;
+}
+
+.contact_form > input.contact_message {
+    height: 170px;
+}
+
+.contact_form > button {
+    font-family: Arial-BoldMT, MyriadPro-Regular, AdobeInvisFont;
+    font-size: 16pt;
+    color: rgba(68, 81, 98, 255);
+    background-color: white;
+    border-radius: 5px;
+    width: 140px;
+    height: 40px;
+}
+
+.site_contacts {
+    height: auto;
+}
+
+.site_contacts > ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.site_contacts > ul > li {
+    display: flex;
+    align-items: center;
+}
+
+.site_contacts > ul > li > img {
+    height: 24px;
+}
+
+.site_contacts > ul > li > p {
+    font-family: ArialMT, MyriadPro-Regular, AdobeInvisFont;
+    font-size: 16pt;
+    color: rgba(255, 255, 255, 255);
+    padding: 7px 5px;
+    margin: 0;
+}
+
+.social {
+    display: flex;
+    padding: 2em 0;
+}
+
+footer {
+    font-family: ArialMT, MyriadPro-Regular, AdobeInvisFont;
+    font-size: 12pt;
+    color: rgba(68, 81, 98, 255);
+
+}
+
+footer > p {
+        margin: 0 0;
 }
