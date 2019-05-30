@@ -348,6 +348,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 40px;
 }
 
 .contacts_header {
@@ -431,9 +432,10 @@ footer {
     font-family: ArialMT, MyriadPro-Regular, AdobeInvisFont;
     font-size: 12pt;
     color: rgba(68, 81, 98, 255);
-
+    display: flex;
+    justify-content: center;
 }
 
 footer > p {
-        margin: 0 0;
+
 }
