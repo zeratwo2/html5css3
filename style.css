@@ -382,8 +382,15 @@
     width: 100%;
 }
 
-.contact_form > input.contact_message {
-    height: 170px;
+.contact_message {
+    font-family: ArialMT, MyriadPro-Regular, AdobeInvisFont;
+    font-size: 16pt;
+    color: rgba(68, 81, 98, 255);
+    border-radius: 5px;
+    margin-bottom: 21px;
+    resize: none;
+    width: 100%;
+    height: 7em;
 }
 
 .contact_form > button {
