@@ -125,9 +125,10 @@
     padding-right: 4em;
 }
 
-.pluses_list > ul > li >p {
+.pluses_list > ul > li > p {
     margin: 0;
 }
+
 .screenshots {
     display: flex;
     flex-direction: column;
@@ -265,5 +266,77 @@
     height: 0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-right: 10px solid #ebebeb;;
+    border-right: 10px solid #ebebeb;
+    ;
+}
+
+.buy_it_now {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy_it_now_header {
+    font-family: ArialMT, MyriadPro-Regular, AdobeInvisFont;
+    font-size: 30pt;
+    color: rgba(68, 81, 97, 255);
+    text-align: center;
+    width: 100%;
+}
+
+.plans {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.plan {
+    background-color: #445162;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan_name {
+    font-family: ArialMT, MyriadPro-Regular, AdobeInvisFont;
+    font-size: 24pt;
+    color: rgba(255, 255, 255, 255);
+    text-align: left;
+    margin: 16px;
+}
+
+.plan_price {
+    font-family: ArialMT, MyriadPro-Regular, AdobeInvisFont;
+    font-size: 40pt;
+    color: rgba(68, 81, 98, 255);
+    background-color: white;
+    width: 98%;
+    text-align: center;
+}
+
+.plan_list {
+    list-style-type: decimal;
+    padding-right: 25px;
+}
+
+.plan_list > li {
+    font-family: ArialMT, Arial-ItalicMT, MyriadPro-Regular, AdobeInvisFont;
+    font-size: 14pt;
+    color: rgba(255, 255, 255, 255);
+    text-align: left;
+}
+
+.buy_button {
+    font-family: Arial-BoldMT, MyriadPro-Regular, AdobeInvisFont;
+    font-size: 18pt;
+    color: rgba(68, 81, 97, 255);
+    text-align: center;
+    width: 90%;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 16px;
 }
