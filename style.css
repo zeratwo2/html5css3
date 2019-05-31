@@ -1,5 +1,6 @@
 .page-wrap {
     margin: 0 auto;
+    max-width: 1920;
 }
 
 .container {
@@ -28,6 +29,7 @@
 .product_name {
     font-family: ArialMT, Arial-ItalicMT, MyriadPro-Regular, AdobeInvisFont;
     font-size: 40pt;
+    line-height: 100%;
     color: rgba(255, 255, 255, 255);
     text-align: left;
 }
@@ -39,6 +41,7 @@
 .product_info_list > li {
     font-family: ArialMT, MyriadPro-Regular, AdobeInvisFont;
     font-size: 20pt;
+    line-height: 130%;
     color: rgba(255, 255, 255, 255);
     text-align: left;
 }
@@ -79,9 +82,10 @@
     margin: 0 0;
 }
 
-.about_textbox > li {
+.about_textbox > li > p {
     font-family: ArialMT, MyriadPro-Regular, AdobeInvisFont;
     font-size: 16pt;
+    
     color: rgba(51, 51, 51, 255);
     text-align: left;
 }
@@ -145,21 +149,8 @@
 .screenshots_list {
     display: flex;
     justify-content: center;
-}
-
-.screenshots_list > ul {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
     align-content: center;
-    justify-content: center;
-    list-style: none;
-    padding-right: 0;
-}
-
-.screenshots_list > ul > li {
-    padding-right: 2em;
-    width: 40%;
+    flex-wrap: wrap;
 }
 
 .screenshot_container {
@@ -167,6 +158,8 @@
     align-items: flex-start;
     justify-content: flex-start;
     padding-bottom: 1em;
+    padding-right: 1em;
+    width: 40%;
 }
 
 .screenshot_image {
@@ -260,7 +253,7 @@
 .review_left_arrow {
     color: red;
     position: relative;
-    left: 92px;
+    left: 93px;
     top: 20px;
     width: 0;
     height: 0;
